@@ -1,69 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <title>One Piece|Store</title>
-    <meta name="description"
-        content="Still wondering One Piece exists or not!!!Come visit the Straw Hats.">
-    <header>
-        <ul>
-            <a href="OnePiece_home.html"><li>Home</li></a>
-            <a href="onepiece_store.html"><li>Store</li></a>
-            <a href="onepiece_watch.html"><li>Watch now</li></a>
-            <a href="onepiece_fandom.html"><li>FANdom</li></a>
-        </ul>
-        <hr>
-    </header>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>One Piece | Store</title>
+        <meta name="description"
+            content="Still wondering One Piece exists or not? Come visit the Straw Hats.">
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product img {
+            transition: transform 0.3s;
+        }
+
+        .product img:hover {
+            transform: scale(1.1);
+        }
+
+        .product h4 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product p {
+            color: #555;
+        }
+
+        .product button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            margin: 0 10px;
+        }
+
+        footer img {
+            vertical-align: middle;
+        }
+    </style>
+    </head>
+
     <body>
-        <h1>===Explore Our Unique Products===</h1>
-        <!--Cart page-->
-        <a href><img src="images\luffy-icon.png" height="50"></a>
+        <header>
+            <ul>
+                <li><a href="OnePiece_home.html">Home</a></li>
+                <li><a href="onepiece_store.html">Store</a></li>
+                <li><a href="onepiece_watch.html">Watch now</a></li>
+                <li><a href="onepiece_fandom.html">FANdom</a></li>
+            </ul>
+        </header>
+
+        <h1>=== Explore Our Unique Products ===</h1>
+
+        <div class="product">
+            <a href="#"><img src="/images/luffy-icon.png" height="50"></a>
+        </div>
 
         <hr>
-        <div>
-            <img src="images\cup-1.jpg" height="300">
+
+        <div class="product">
+            <img src="/images/cup-1.jpg" height="300">
             <h4>Transforming Design Cup</h4>
-            Price: Rs. 799/-
+            <p>Price: Rs. 799/-</p>
             <button type="button">Add to cart</button>
         </div>
+
         <hr>
 
-        <div>
-            <img src="images\cup-2.jpeg" height="300">
+        <div class="product">
+            <img src="/images/cup-2.jpeg" height="300">
             <h4>Trio Cup with models</h4>
-            Price: Rs. 1099/-
+            <p>Price: Rs. 1099/-</p>
             <button type="button">Add to cart</button>
         </div>
+
         <hr>
 
-        <div>
-            <img src="images\tshiet-2.jpg" height="300">
+        <div class="product">
+            <img src="/images/tshiet-2.jpg" height="300">
             <h4>T-Shirt Luffy</h4>
-            Price: Rs. 399/-
+            <p>Price: Rs. 399/-</p>
             <button type="button">Add to cart</button>
         </div>
+
         <hr>
 
-        <div>
-            <img src="images\tshirt-1.jpg" height="300">
+        <div class="product">
+            <img src="/images/tshirt-1.jpg" height="300">
             <h4>Infurious Luffy Black T-shirt</h4>
-            Price: Rs. 699/-
+            <p>Price: Rs. 699/-</p>
             <button type="button">Add to cart</button>
         </div>
+
         <hr>
 
-        <div>
-            <img src="images\posters.jpg" height="300">
+        <div class="product">
+            <img src="/images/posters.jpg" height="300">
             <h4>Posters set of 6</h4>
-            Price: Rs. 500/-
+            <p>Price: Rs. 500/-</p>
             <button type="button">Add to cart</button>
         </div>
 
         <hr>
+
+        <footer>
+            <p>Connect with us:</p>
+            <a target="_blank" href="https://www.facebook.com"><img
+                    src="/images/fb_logo.png" height="30"></a>
+            <a target="_blank" href="https://www.youtube.com"><img
+                    src="/images/youtube-logo.png" height="40"></a>
+        </footer>
     </body>
-    <footer>
-        <p>Connect with us:</p>
-        <a direct="_blank" href="https://www.facebook.com"><img
-                src="images\fb_logo.png" height="30"></a>
-        <a direct="_blank" href="https://www.youtube.com"><img
-                src="images\youtube-logo.png" height="40"></a>
-    </footer>
+
 </html>
