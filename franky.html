@@ -1,42 +1,160 @@
 <!DOCTYPE html>
-<html>
-    <title>One Piece|Franky</title>
-    <meta name="description"
-        content="Still wondering One Piece exists or not!!!Come visit the Straw Hats.">
-    <header>
-        <ul>
-            <a href="OnePiece_home.html"><li>Home</li></a>
-            <a href="onepiece_store.html"><li>Store</li></a>
-            <a href="onepiece_watch.html"><li>Watch now</li></a>
-            <a href="onepiece_fandom.html"><li>FANdom</li></a>
-        </ul>
-        <hr>
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>One Piece | Franky</title>
+        <meta name="description"
+            content="Still wondering if One Piece exists or not? Come visit the Straw Hats.">
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .character-info {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .character-info img {
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .character-info img:hover {
+            transform: scale(1.1);
+        }
+
+        .attacks {
+            margin: 20px;
+        }
+
+        .attack {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .attack img {
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .footer a {
+            margin: 0 10px;
+        }
+
+        .footer img {
+            vertical-align: middle;
+        }
+    </style>
+    </head>
     <body>
+        <header>
+            <ul>
+                <li><a href="OnePiece_home.html">Home</a></li>
+                <li><a href="onepiece_store.html">Store</a></li>
+                <li><a href="onepiece_watch.html">Watch now</a></li>
+                <li><a href="onepiece_fandom.html">FANdom</a></li>
+            </ul>
+            <hr>
+        </header>
+
         <h1>Franky</h1>
-        <!--Hover effect on image using css-->
-        <img src="images\franky-2.png" height="200">
 
-        <div>
+        <div class="character-info">
+            <img src="/images/franky-2.png" height="200">
             <h3>What is Franky known for?</h3>
+            <p>"Iron Man" Franky is the shipwright of the Straw Hat Pirates and
+                one of the Senior Officers of the Straw Hat Grand Fleet. He is
+                the crew's eighth member and the seventh to join, doing so at
+                the end of the Post-Enies Lobby Arc.</p>
+        </div>
+        <hr>
 
-            "Iron Man" Franky is the shipwright of the Straw Hat Pirates and one
-            of the Senior Officers of the Straw Hat Grand Fleet. He is the crew's
-            eighth member and the seventh to join, doing so at the end of the
-            Post-Enies Lobby Arc.
-        </div>
-        <hr>
-        <div>
+        <div class="attacks">
             <h2>Famous Attacks</h2>
-            <!--include image and attack descripions-->
+
+            <div class="attack">
+                <img src="/images/attack1.png">
+                <div>
+                    <h4>Coup de Vent</h4>
+                    <p>Franky launches powerful air blasts from his arms.</p>
+                </div>
+            </div>
+
+            <div class="attack">
+                <img src="/images/attack2.png">
+                <div>
+                    <h4>Franky Radical Beam</h4>
+                    <p>Franky fires a powerful laser beam from his mouth or
+                        arms.</p>
+                </div>
+            </div>
+
+            <!-- Add more attacks as needed -->
+
         </div>
         <hr>
+
+        <footer class="footer">
+            <p>Connect with us:</p>
+            <a target="_blank" href="https://www.facebook.com"><img
+                    src="/images/fb_logo.png" height="30"></a>
+            <a target="_blank" href="https://www.youtube.com"><img
+                    src="/images/youtube-logo.png" height="40"></a>
+        </footer>
     </body>
-    <footer>
-        <p>Connect with us:</p>
-        <a direct="_blank" href="https://www.facebook.com"><img
-                src="images\fb_logo.png" height="30"></a>
-        <a direct="_blank" href="https://www.youtube.com"><img
-                src="images\youtube-logo.png" height="40"></a>
-    </footer>
 </html>
