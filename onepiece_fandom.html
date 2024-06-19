@@ -1,71 +1,200 @@
 <!DOCTYPE html>
-<html>
-    <title>One Piece|Straw Hats</title>
-    <meta name="description"
-        content="Still wondering One Piece exists or not!!!Come visit the Straw Hats.">
-    <header>
-        <ul>
-            <a href="OnePiece_home.html"><li>Home</li></a>
-            <a href="onepiece_store.html"><li>Store</li></a>
-            <a href="onepiece_watch.html"><li>Watch now</li></a>
-            <a href="onepiece_fandom.html"><li>FANdom</li></a>
-        </ul>
-        <hr>
-    </header>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>One Piece | Straw Hats</title>
+        <meta name="description"
+            content="Still wondering if One Piece exists or not? Come visit the Straw Hats.">
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .review {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .review img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .review ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .review ul li {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .footer h2 {
+            margin-bottom: 10px;
+        }
+
+        .footer form {
+            text-align: center;
+        }
+
+        .footer form input[type=text],
+        .footer form input[type=submit] {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .footer form input[type=submit] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer form input[type=submit]:hover {
+            background-color: #555;
+        }
+
+        .footer p {
+            margin-top: 20px;
+        }
+
+        .footer a {
+            margin: 0 10px;
+        }
+
+        .footer img {
+            vertical-align: middle;
+        }
+    </style>
+    </head>
+
     <body>
-        <h1>You are One of Them:The Straw Hats</h1>
-        <hr>
-        <div>
+        <header>
             <ul>
-                <li><img src="images\luffy-2.png" height="50"></li>
+                <li><a href="OnePiece_home.html">Home</a></li>
+                <li><a href="onepiece_store.html">Store</a></li>
+                <li><a href="onepiece_watch.html">Watch now</a></li>
+                <li><a href="onepiece_fandom.html">FANdom</a></li>
+            </ul>
+            <hr>
+        </header>
+
+        <h1>You are One of Them: The Straw Hats</h1>
+
+        <div class="review">
+            <img src="/images/luffy-2.png" height="50">
+            <ul>
                 <li>Anusha Sarkar</li>
-                <li>Awesome series to watch!Must Recommended...</li>
+                <li>Awesome series to watch! Must Recommended...</li>
             </ul>
         </div>
         <hr>
-        <div>
+
+        <div class="review">
+            <img src="/images/luffy-2.png" height="50">
             <ul>
-                <li><img src="images\luffy-2.png" height="50"></li>
                 <li>Siddhant Sarkar</li>
                 <li>Best anime of all times</li>
             </ul>
         </div>
         <hr>
-        <div>
+
+        <div class="review">
+            <img src="/images/luffy-2.png" height="50">
             <ul>
-                <li><img src="images\luffy-2.png" height="50"></li>
                 <li>Bhoomy Singh</li>
-                <li>Great back stories!Very Thoughtful</li>
+                <li>Great back stories! Very Thoughtful</li>
             </ul>
         </div>
         <hr>
-        <div>
+
+        <div class="review">
+            <img src="/images/luffy-2.png" height="50">
             <ul>
-                <li><img src="images\luffy-2.png" height="50"></li>
                 <li>Prachi Sharma</li>
                 <li>Totally Worth it</li>
             </ul>
         </div>
         <hr>
 
-    </body>
-    <footer>
-        <h2>Share your Thoughts</h2>
+        <footer class="footer">
+            <h2>Share your Thoughts</h2>
 
-        <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="Your First Name"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Your Surname"><br>
-            <label for="comment">Comment:</label><br>
-            <input type="text" id="comment" name="comment"
-                value="Enter your Views"><br><br>
-            <input type="submit" value="Post">
-        </form>
-        <p>Connect with us:</p>
-        <a direct="_blank" href="https://www.facebook.com"><img
-                src="images\fb_logo.png" height="30"></a>
-        <a direct="_blank" href="https://www.youtube.com"><img
-                src="images\youtube-logo.png" height="40"></a>
-    </footer>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"
+                    value="Your First Name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"
+                    value="Your Surname"><br>
+                <label for="comment">Comment:</label><br>
+                <input type="text" id="comment" name="comment"
+                    value="Enter your Views"><br><br>
+                <input type="submit" value="Post">
+            </form>
+
+            <p>Connect with us:</p>
+            <a target="_blank" href="https://www.facebook.com"><img
+                    src="/images/fb_logo.png" height="30"></a>
+            <a target="_blank" href="https://www.youtube.com"><img
+                    src="/images/youtube-logo.png" height="40"></a>
+        </footer>
+    </body>
+
 </html>
